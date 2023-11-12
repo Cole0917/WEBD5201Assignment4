@@ -7,4 +7,7 @@
   <%= link_to "Back to tasks", tasks_path %>
 
   <%= button_to "Destroy this task", @task, method: :delete %>
+
+  <%= image_tag @task.image if @task.image.attached? %>
+
 </div>

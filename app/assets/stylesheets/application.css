@@ -1,5 +1,7 @@
 /* app/assets/stylesheets/application.css */
 
+@import 'bootstrap';
+
 /* Add your CSS styles here */
 body {
     font-family: Arial, sans-serif;

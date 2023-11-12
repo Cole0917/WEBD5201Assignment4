@@ -8,5 +8,10 @@
     <strong>Description:</strong>
     <%= task.description %>
   </p>
+  
+  <p>
+    <strong>Image:</strong>
+    <%= image_tag task.image if task.respond_to?(:image) && task.image.attached? %>
+  </p>
 
 </div>
